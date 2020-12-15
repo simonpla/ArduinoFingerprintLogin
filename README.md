@@ -1,5 +1,5 @@
 ## Log in with your arduino
-Using a fingerprint sensor, you can log in into any website you want. You just have to adjust that in the arduino code.
+Using a fingerprint sensor, you can log in into any website you want. You just have to adjust that in the arduino code for your needs.
 
 ## How it works
 The Add-on linked here sends the Website you are visiting now over websockets to the Go code ```main.go```.
