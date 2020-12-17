@@ -12,4 +12,4 @@ For that you will need an Arduino Pro Mini or Arduino Leonardo.
 1. Install the browser extension
 2. You can build the file ```main.go``` with ```go build``` from source or download the compiled file for your operating system and architecture.
    In linux you have run ```chmod +x main_amd64``` (change the name for the architecture you downloaded) and execute the file with ```./main_amd64``` (again, change             the name if you have to). In Windows just execute the file.
- 3. Make the program start every time you boot
+ 3. Make the program start every time you boot (Install script coming)
