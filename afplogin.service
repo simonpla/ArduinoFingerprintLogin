@@ -7,7 +7,7 @@ After=network.target
 [Service]
 Type=simple
 DynamicUser=yes
-ExecStart=/usr/local/binafplogin
+ExecStart=/usr/local/bin/afplogin
 Restart=always
 RestartSec=3
 
