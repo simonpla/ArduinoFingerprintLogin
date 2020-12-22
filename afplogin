@@ -1,3 +1,13 @@
+### BEGIN INIT INFO
+# Provides:          afplogin
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Data transfer from websockets to Arduino.
+# Description:       Recieves data over websockets and sends it to Arduino.
+### END INIT INFO
+
 description "afplogin upstart"
 
 start on startup
@@ -12,6 +22,5 @@ pre-start script
 end script
 
 pre-stop script
-  rm /var/run/neo_start.pid
   echo "[`date`] afplogin Stopping" >> /var/log/afplogin.log
 end script
