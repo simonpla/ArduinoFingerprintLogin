@@ -10,6 +10,6 @@ For that you will need an Arduino Pro Mini or Arduino Leonardo.
 
 ## Installation
 1. Install the browser extension
-2. You can build the file ```main.go``` with ```go build``` from source or download the compiled file for your operating system and architecture.
-   In linux you have run ```chmod +x main_amd64``` (change the name for the architecture you downloaded) and execute the file with ```./main_amd64``` (again, change             the name if you have to). In Windows just execute the file.
- 3. Make the program start every time you boot (Install script coming)
+2. If you use Linux, use the install script. If using Windows, download the executable, press Windows-Key + R and type ```shell:startup```. Copy the executable file in there.
+3. Connect the Fingerprint sensor to the Arduino and save your Fingerprint as ```1``` with the ```EnrollFingerprint``` example.
+4. Adjust the Arduino code to your needs and upload it to an Arduino Leonardo / Pro Micro.
